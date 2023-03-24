@@ -10,7 +10,7 @@ DROP DATABASE nome_do_banco;
 -- para selecionar/entrar no banco de dados
 USE nome_do_banco;
 
--- TABELAS
+-- TABELAS -----------------------------------------------------------------------------------
 
 -- mostrar tabela
 SHOW TABLES;
@@ -23,3 +23,12 @@ CREATE TABLE tb_curso {
     carga_horaria INT(4) NOT NULL,
     descricao VARCHAR(255)
 };
+
+-- detalhar a estrutura de uma tabela
+DESC nome_do_banco;
+
+-- para alterar tabela
+ALTER TABLE nome_do_banco;
+
+-- para excluir uma tabela
+DROP TABLE nome_do_banco;
